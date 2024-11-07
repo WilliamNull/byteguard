@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ByteGuard - Seguridad Integral para tu Negocio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+        <a class="navbar-brand" href="#">
+            <img src="img/logo.png" alt="ByteGuard Logo" width="50" height="50" class="d-inline-block align-text-top">
+            ByteGuard
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link active" href="#services">Servicios</a></li>
+                <li class="nav-item"><a class="nav-link" href="#promotions">Promociones</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contact">Contáctanos</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- Header -->
+<header class="bg-primary text-white text-center py-5">
+    <div class="container">
+        <h1>Protege tu negocio con ByteGuard</h1>
+        <p class="lead">Soluciones integrales de seguridad física y digital</p>
+        <a href="#promotions" class="btn btn-light">Ver Promociones</a>
+    </div>
+</header>
+
+<!-- Services Section -->
+<section id="services" class="py-5">
+    <div class="container">
+        <h2 class="text-center">Nuestros Servicios</h2>
+        <div class="row mt-4">
+            <div class="col-md-4 text-center">
+                <img src="img/servicio1.jpg" alt="Instalación de Cámaras" class="img-fluid rounded">
+                <h3>Instalación de Cámaras</h3>
+                <p>Equipos de alta calidad y cobertura estratégica para la máxima seguridad.</p>
+            </div>
+            <div class="col-md-4 text-center">
+                <img src="img/servicio2.jpg" alt="Mantenimiento Técnico" class="img-fluid rounded">
+                <h3>Mantenimiento Técnico</h3>
+                <p>Prevención y solución de problemas para mantener tu sistema en óptimas condiciones.</p>
+            </div>
+            <div class="col-md-4 text-center">
+                <img src="img/servicio3.jpg" alt="Desarrollo Web Seguro" class="img-fluid rounded">
+                <h3>Desarrollo Web Seguro</h3>
+                <p>Protege tu negocio en línea con sitios web robustos y seguros.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Promotions Section -->
+<section id="promotions" class="bg-light py-5">
+    <div class="container">
+        <h2 class="text-center">Promociones Especiales</h2>
+        <div class="row mt-4">
+            <div class="col-md-4 text-center">
+                <img src="img/promocion1.jpg" alt="Descuento en Cámaras" class="img-fluid rounded">
+                <h3>20% Descuento en Instalación de Cámaras</h3>
+                <p>Obtén un descuento especial en la instalación de sistemas de videovigilancia.</p>
+                <button class="btn btn-primary" onclick="showPromotionAlert()">Ver más</button>
+            </div>
+            <div class="col-md-4 text-center">
+                <img src="img/promocion2.jpg" alt="Plan de Mantenimiento" class="img-fluid rounded">
+                <h3>Plan de Mantenimiento Anual con Descuento</h3>
+                <p>Contrata el plan anual y recibe soporte continuo para tus equipos.</p>
+                <button class="btn btn-primary" onclick="showPromotionAlert()">Ver más</button>
+            </div>
+            <div class="col-md-4 text-center">
+                <img src="img/promocion3.jpg" alt="Descuento en Desarrollo Web" class="img-fluid rounded">
+                <h3>Descuento en Desarrollo Web Seguro</h3>
+                <p>Aprovecha descuentos en el desarrollo de un sitio web seguro y funcional.</p>
+                <button class="btn btn-primary" onclick="showPromotionAlert()">Ver más</button>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Contact Section -->
+<section id="contact" class="py-5">
+    <div class="container">
+        <h2 class="text-center">Contáctanos</h2>
+        <p class="text-center">¿Listo para transformar la seguridad de tu negocio? ¡Contáctanos hoy mismo!</p>
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+                <form>
+                    <div class="mb-3">
+                        <label for="name" class="form-label">Nombre</label>
+                        <input type="text" class="form-control" id="name" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Correo Electrónico</label>
+                        <input type="email" class="form-control" id="email" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="message" class="form-label">Mensaje</label>
+                        <textarea class="form-control" id="message" rows="4" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary w-100">Enviar Mensaje</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer class="bg-dark text-white text-center py-4">
+    <p>&copy; 2024 ByteGuard. Todos los derechos reservados.</p>
+    <p>Teléfono: +503 7342-0893 | Correo: <a href="mailto:contacto@byteware.com" class="text-white">contacto@byteware.com</a></p>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+<script src="scripts.js"></script>
+</body>
+</html>
